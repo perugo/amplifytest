@@ -1,7 +1,7 @@
 import { ApolloClient, InMemoryCache, createHttpLink } from '@apollo/client';
 import { setContext } from '@apollo/client/link/context';
 
-const apiKey = 'da2-6447nbpqpjbctjntoa2u5ogcee';
+const apiKey = 'da2-7q65im6z6vcm3pqcvzm62gjvqi';
 const authLink = setContext((_, { headers }) => ({
   headers: {
     ...headers,
